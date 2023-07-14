@@ -1,0 +1,30 @@
+﻿@model NoticiaViewModel
+
+@{
+	ViewData["Title"] = "Noticias";
+}
+
+@*<img src="~/Images/Imagen banner.jpg" class="text-center w-50"/>*@
+<div class="row">
+	<div class="col">
+		<div class="d-flex">
+			<h2 style="margin-right: 40px">Noticias Publicadas</h2>
+			<img src="~/Images/zeitung20.gif" width="40" />
+		</div>
+	</div>
+
+	<div class="col">
+		<div class="row justify-content-end">
+			@*<a asp-controller="Noticia" asp-action="Crear" style="width: fit-content">
+				<button class="btn btn-primary" type="button" style="width: fit-content">Crear Noticias</button>
+			</a>*@
+			@*<a asp-controller="Noticia" asp-action="BuscarPorCategoria" style="width: fit-content">
+				<button class="btn btn-primary" type="button" style="width: fit-content">Buscar Noticias</button>
+			</a>*@
+		</div>
+	</div>
+</div>
+
+<partial name="_MostrarNoticias" model="@Model.Task" />
+
+

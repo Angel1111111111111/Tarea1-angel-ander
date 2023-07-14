@@ -1,0 +1,82 @@
+﻿@model Noticia
+
+<div class="row justify-content-center">
+    <div class="formulario w-50">
+        <h2 class="text-center">@ViewData["Text"] Noticias</h2>
+        <img src="~/Images/unah.jpeg" alt="baner" style="height: 130px; width: 515px;" />
+        <form method="post" id="formulario" asp-action="@ViewData["Action"]" class="row align-self-center">
+            <div class="row form_grop">
+                <label class="form-label" for="Titulo">Titulo</label>
+                <input class="form-control" asp-for="Titulo" type="text" />
+                @Html.ValidationMessageFor(model => model.Titulo, message:"", new {@class = "text-danger"})
+            </div>
+
+            <div class="row">
+                <label class="form-label" for="Descripcion">Descripcion</label>
+                <textarea class="form-control" asp-for="Descripcion" type="text"></textarea>
+                @Html.ValidationMessageFor(model => model.Descripcion, message:"", new {@class = "text-danger"})
+            </div>
+
+            <div class="row">
+                <label class="form-label" for="FechaDeVencimiento">Fecha de Publicacion</label>
+                <input class="form-control" asp-for="FechaDePublicacion" type="datetime-local" />
+
+                @if (Html.ViewContext.ModelState["FechaDeVencimiento"]?.Errors[0].ErrorMessage != null)
+                {
+                    @Html.ValidationMessageFor(model => model.FechaDePublicacion, "Inserte la fecha de la noticia.", new {@class = "text-danger"})
+                }
+            </div>
+
+            @* <div class="row">
+            <label class="form-label" for="Titulo">Ingresa la Categoria de la Noticia</label>
+            <input class="form-control" asp-for="Categoria" type="text" />
+            @Html.ValidationMessageFor(model => model.Categoria, message:"", new {@class = "text-danger"})
+            </div>*@
+
+            <div class="row">
+                <label class="form-label" for="Categoria">Ingresa la Categoría de la Noticia</label>
+                <select class="form-select" asp-for="Categoria">
+                    <option value="">Seleccionar Categoría</option>
+                    <option value="Sociales">Sociales</option>
+                    <option value="Politicas">Politicas</option>
+                    <option value="Deportes">Deportes</option>
+                    <option value="Tecnologicas">tecnologicas</option>
+                    <option value="Farandula">Farandula</option>
+                    <option value="Internacionales">Internacionales</option>
+                </select>
+                @Html.ValidationMessageFor(model => model.Categoria, "", new { @class = "text-danger" })
+            </div>
+
+
+            <div class="row mt-3">
+                <button class="btn btn-primary" type="submit">@ViewData["Text"]</button>
+            </div>
+        </form>
+
+        <script>
+            document.getElementById("formulario").addEventListener("submit", function (event) {
+                event.preventDefault();
+                guardarFormularioJson();
+            });
+
+            function guardarFormularioJson() 
+            {
+                var Titulo = document.getElementById("Titulo").value;
+                var Descripcion = document.getElementById("Descripcion").value;
+                var FechaDeVencimiento = document.getElementById("FechaDeVencimiento").value;
+                var Categoria = document.getElementById("Categoria").value;
+
+                var formularioJson =
+                {
+                    "Titulo": Titulo,
+                    "Descripcion": Descripcion,
+                    "FechaDeVencimiento": FechaDeVencimiento,
+                    "Categoria": Categoria
+                };
+                var formularioJsonString = JSON.stringify(formularioJson);
+
+                console.log(formularioJsonString;)
+            }
+        </script>
+    </div>
+</div>

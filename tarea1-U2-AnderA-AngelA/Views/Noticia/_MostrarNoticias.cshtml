@@ -1,0 +1,42 @@
+﻿@model IEnumerable<Noticia>
+
+@if (Model.Count() != 0)
+{
+	<div class="row justify-content-center justify-content-lg-start mt-3 gap-3">
+		@foreach (Noticia noticia in Model)
+		{
+
+			<div class="custom-card card col-4 p-0" style="min-width: 18rem">
+				<div class="card-body">
+					<img src="~/Images/zeitung21.gif" width="40px" />
+					<h5 class="Titulo card-title">@noticia.Titulo</h5>
+					<h6 class="fecha card-subtitle mb-2 text-muted">@noticia.FechaDePublicacion.ToString(format:"dd/mm/yyyy hh:mm tt")</h6>
+					<p class="Descripcion card-text">@noticia.Descripcion</p>
+					<p class="Categoria ccard-text">@noticia.Categoria</p>
+				</div>
+				<div>
+					<div class="row justify-content-center mb-2">
+						<div class="col-3">
+							<a href="Noticia/Editar/@noticia.Id">
+								<button class="btn btn-primary custom-button" type="button" style="width: fit-content">Editar</button>
+							</a>
+						</div>
+						<div class="col-3">
+							<a href="Noticia/BorrarTarea/@noticia.Id">
+								<button class="btn btn-danger custom-button" type="button" style="width: fit-content">Eliminar</button>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		}
+	</div>
+
+}
+else
+{
+	<p class="text-center">No hay noticias para mostrar</p>
+	<div style="text-align: center;">
+		<img src="~/Images/no hay noticias.gif" alt="Imagen de no hay tarea" />
+	</div>
+}

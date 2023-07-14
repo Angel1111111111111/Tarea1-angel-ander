@@ -1,0 +1,9 @@
+﻿
+@{
+    var parametrosVista = new ViewDataDictionary(ViewData)
+            {
+                ["Text"] = "Actualizar",
+                ["Action"] = "Editar",
+            };
+}
+<partial model="@Model" view-data="parametrosVista" name="_AgregarNoticias" />

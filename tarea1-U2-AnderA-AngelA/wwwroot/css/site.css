@@ -1,0 +1,211 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 200px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27,27,27,27);
+    color: black;
+    margin-bottom: 60px;
+    background-image: url('../images/descarga.jpeg');
+}
+
+.custom-card {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Book';
+    width: 369px;
+    border-radius: 16px;
+    background: #e2dede;
+    box-shadow: 10px 10px 20px #b1b1b1, -10px -10px 20px #e2dede;
+}
+.card-text {
+    margin: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.custom-button {
+    background-color: whitesmoke;
+    font-weight: unset;
+    color: black;
+    font-size: 1rem;
+    padding: .5rem 1.2rem;
+    border: 2px solid #eee;
+    border-radius: 10rem;
+    cursor: pointer;
+    transition: all .5s ease;
+    box-shadow: .3rem .3rem 1rem #b1b1b1, -.3rem -.3rem 1rem #fff;
+}
+
+
+.distribucion {
+    height: 100vh;
+    display: grid;
+    background: #e2dede;
+    grid-template-areas:
+        "header"
+        "body"
+        "footer";
+    grid-template-rows: 80px 1fr 30px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+    position: relative;
+    background-image: url('../images/fondo6.png');
+}
+
+nav {
+    grid-area: header;
+}
+
+main {
+    grid-area: body;
+}
+
+footer {
+    grid-area: footer;
+    position: absolute;
+    bottom: 0px;
+}
+
+.custom-Buscar {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: .5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: -10px 2px 2px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.label {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+.texto {
+    display: inline-block;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.box-shadow {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+    padding: 8px 12px;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+
+.navbar-brand {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #7996c9;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    transition: top 0.3s ease;
+}
+
+.form_grop {
+    position: relative;
+    --color: #57575777e;
+}
+.container-fluid {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    color: #333;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #706c6c;
+    padding: .6rem .3rem;
+    border-color: antiquewhite;
+}
+
+.form-label{
+    left: 5px;
+}
+
+.formulario{
+    position: relative;
+    border-top-color: black;
+    background-color: lightcyan;
+    padding: 15px 29px;
+}
+
+.Titulo {
+    font-size: 20px; 
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.fecha {
+    font-size: 14px;
+    color: #999; 
+    font-style: italic;
+}
+
+.Descripcion {
+    font-size: 15px;
+    font-family: Arial;
+    color: #333;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.Categoria {
+    font-size: 17px;
+    font-family: Arial, sans-serif; 
+    font-weight: bold;
+}
+

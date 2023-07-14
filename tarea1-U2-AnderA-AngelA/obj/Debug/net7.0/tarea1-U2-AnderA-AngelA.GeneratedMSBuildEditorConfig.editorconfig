@@ -1,0 +1,61 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = tarea1_U2_AnderA_AngelA
+build_property.RootNamespace = tarea1_U2_AnderA_AngelA
+build_property.ProjectDir = C:\Users\angel\OneDrive\Escritorio\tarea1-U2-AnderA-AngelA\tarea1-U2-AnderA-AngelA\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\angel\OneDrive\Escritorio\tarea1-U2-AnderA-AngelA\tarea1-U2-AnderA-AngelA
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/CrearFormulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxDcmVhckZvcm11bGFyaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/FormularioEditar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxGb3JtdWxhcmlvRWRpdGFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/_AgregarNoticias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxfQWdyZWdhck5vdGljaWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Noticia/_MostrarNoticias.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTm90aWNpYVxfTW9zdHJhck5vdGljaWFzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/angel/OneDrive/Escritorio/tarea1-U2-AnderA-AngelA/tarea1-U2-AnderA-AngelA/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8ke4ugep97
